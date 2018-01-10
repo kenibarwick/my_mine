@@ -1,0 +1,17 @@
+{
+  "name": "my_mine",
+  "version": "1.0.0",
+  "description": "My Mine alexa skill",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.24",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,33 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "My ETC Miner status skill",
+          "examplePhrases": [
+            "Alexa open my mine",
+            "Alexa ask my mine what is my daily dollar estimate",
+            "Alexa ask my mine for my average hashrate"
+          ],
+          "name": "my mine",
+          "description": "My ETC Miners staus skill checking your mine status and giving you the estimated daily revenue and eta for the next coin "
+        },
+        "en-GB": {
+          "name": "my mine"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "BUSINESS_AND_FINANCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda\\custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

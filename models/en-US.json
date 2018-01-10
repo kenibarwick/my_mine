@@ -1,0 +1,79 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my mine",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetStatsIntent",
+          "slots": [
+            {
+              "name": "stat",
+              "type": "stat"
+            }
+          ],
+          "samples": [
+            "what is my {stat}",
+            "what is my status",
+            "for my {stat}",
+            "when my {stat} is ready",
+            "when is my {stat}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "reported Hashrate"
+              }
+            },
+            {
+              "name": {
+                "value": "current Hashrate"
+              }
+            },
+            {
+              "name": {
+                "value": "average Hashrate"
+              }
+            },
+            {
+              "name": {
+                "value": "unpaid"
+              }
+            },
+            {
+              "name": {
+                "value": "next coin"
+              }
+            },
+            {
+              "name": {
+                "value": "next payout"
+              }
+            },
+            {
+              "name": {
+                "value": "daily dollar estimate"
+              }
+            }
+          ],
+          "name": "stat"
+        }
+      ]
+    }
+  }
+}

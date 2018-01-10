@@ -1,0 +1,34 @@
+[
+    {
+        "deviceID": "AEPJHGQDRIK25QQKR4EOZ6CP4XJ2C4NY3PXWZ4OCXZJD3F2MXWHBMJPZZLIS44ELJ2A5IYJJVKQNXBRG5DC2YZA7KJ4BWPF2GFD3ERSZNAX4FMITCXHEDZPWH3ODUASZ3MGKRTZTPNPZYA6XCZZKZO6TIRXA",
+        "info" :
+            {
+                "coin" :"ETC",
+                "MineAddress": "3a5b83a304d60c03a33e81de9063485329141283"
+            }
+    },
+    {
+        "deviceID": "4567",
+        "info" :
+            {
+                "coin" :"ETC",
+                "MineAddress": "234fstest"
+            }
+    },
+    {
+        "deviceID": "867946796",
+        "info" :
+            {
+                "coin" :"ETC",
+                "MineAddress": "sdfgfdtest"
+            }
+    },
+    {
+        "deviceID": "08796",
+        "info" :
+            {
+                "coin" :"ETC",
+                "MineAddress": "sdgbFNMGH'KLDLO"
+            }
+    }
+]
